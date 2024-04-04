@@ -133,6 +133,9 @@ nav ul li a:hover::after{
     display: block;
 
 }
+.tab-contents ul progress{
+    color: #b54769;
+}
 
 /*------------------- Services ------------------*/
 #services{
