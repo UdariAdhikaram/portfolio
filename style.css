@@ -86,7 +86,7 @@ nav ul li a:hover::after{
     border-radius: 20px;
     position: 0;
 }
-.about-col-2{
+.skill1{
     flex-basis: 60%;
 }
 .sub-title{
@@ -329,11 +329,11 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/WhatsApp\ Image\ 2024-04-02\ at\ 12.20.13_7636fae4.jpg);
+        background-image: url(images/newprofile.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-right: 100%;
+        font-size: 18px;
     }
     .header-text h1{
         font-size: 30px;
