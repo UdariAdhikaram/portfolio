@@ -11,6 +11,9 @@ body{
     background: #080808;
     color: #fff;
 }
+.pos{
+    font-size: 20px;
+}
 #header{
     width: 100%;
     height: 100vh;
@@ -64,6 +67,10 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #ff004f;
+}
+
+.des{
+    font-size: 15px;
 }
 
 /*--------------------about--------------*/
@@ -334,10 +341,18 @@ nav .fa-solid{
     }
     .header-text{
         margin-right: 100%;
-        font-size: 18px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 15px;
+    }
+    .header-text h1 span{
+        font-size: 20px;
+    }
+    .pos{
+        font-size: 15px;
+    }
+    .des{
+        font-size: 10px;
     }
     nav .fas{
         display: block;
