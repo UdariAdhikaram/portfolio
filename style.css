@@ -145,6 +145,7 @@ nav ul li a:hover::after{
 }
 
 /*------------------- Services ------------------*/
+
 #services{
     padding: 30px 0;
 }
@@ -184,6 +185,7 @@ nav ul li a:hover::after{
 }
 
 /*--------------portfolio--------------*/
+
 #portfolio{
     padding: 50px 0;
 }
@@ -338,22 +340,22 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/newprofile.png);
+        background-image: url(images/image1.png);
     }
     .header-text{
-        margin-right: 100%;
+        margin-top: 125%;
     }
     .header-text h1{
-        font-size: 15px;
-    }
-    .header-text h1 span{
         font-size: 20px;
     }
+    .header-text h1 span{
+        font-size: 30px;
+    }
     .pos{
-        font-size: 15px;
+        font-size: 16px;
     }
     .des{
-        font-size: 10px;
+        font-size: 12px;
     }
     nav .fas{
         display: block;
