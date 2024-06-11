@@ -17,7 +17,6 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background5.png);
     background-size: cover;
     background-position: center;
 }
@@ -32,6 +31,19 @@ nav{
 }
 .logo{
     width: 250px;
+}
+.profilepicture{
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.picture1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: 0;
 }
 nav ul li{
     display: inline-block;
@@ -58,7 +70,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 25px;
 }
 .header-text h1{
@@ -85,8 +97,8 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    width: 350px;
-    height: 550px;
+    width: 475px;
+    height: 650px;
 }
 .about-col-1 img{
     width: 100%;
